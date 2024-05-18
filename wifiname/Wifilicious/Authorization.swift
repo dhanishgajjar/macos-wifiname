@@ -14,14 +14,15 @@ extension AppDelegate: CLLocationManagerDelegate {
     func checkAuthorizationStatus() {
         let currentStatus = locationManager.authorizationStatus
         switch currentStatus {
-        case .authorizedWhenInUse, .authorizedAlways:
-            listenForSsidChanges()
-            updateStatusBar()
-            constructMenu()
-        case .denied, .restricted, .notDetermined:
-            prompt.toEnableLocationServices()
-        @unknown default:
-            break
+            case .authorizedWhenInUse, .authorizedAlways:
+                listenForSsidChanges()
+                updateStatusBar()
+            case .denied, .restricted:
+                prompt.toEnableLocationServices()
+            case .notDetermined:
+                locationManager.requestWhenInUseAuthorization()
+            @unknown default:
+                break
         }
     }
     

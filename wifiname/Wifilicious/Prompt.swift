@@ -17,8 +17,9 @@ class Prompt {
         isPromptingLocationServices = true
         
         let alert = NSAlert()
+        alert.alertStyle = .critical
         alert.messageText = "Location Services Disabled"
-        alert.informativeText = "SSID information is not available unless Location Services is enabled"
+        alert.informativeText = "To continue, please enable Location Services in your privacy settings. This is necessary to access the Wi-Fi network information required for the app to function"
         alert.addButton(withTitle: "Open System Preferences")
         alert.addButton(withTitle: "Cancel")
         

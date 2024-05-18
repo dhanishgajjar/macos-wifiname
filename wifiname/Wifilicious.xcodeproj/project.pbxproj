@@ -9,12 +9,9 @@
 /* Begin PBXBuildFile section */
 		000046482BF619EB00229202 /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000046442BF619EA00229202 /* Authorization.swift */; };
 		000046492BF619EB00229202 /* SSID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000046452BF619EA00229202 /* SSID.swift */; };
-		0000464A2BF619EB00229202 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000046462BF619EB00229202 /* Menu.swift */; };
 		0000464B2BF619EB00229202 /* Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000046472BF619EB00229202 /* Visibility.swift */; };
 		0025E3E32BF60F88005AEF82 /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025E3E22BF60F88005AEF82 /* Prompt.swift */; };
 		00E3959E2BF59A7B006D74EB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 00E3959D2BF59A7B006D74EB /* Credits.rtf */; };
-		00F343C62BF673E30068CC48 /* connected.svg in Resources */ = {isa = PBXBuildFile; fileRef = 00F343C42BF673E30068CC48 /* connected.svg */; };
-		00F343C72BF673E30068CC48 /* disconnected.svg in Resources */ = {isa = PBXBuildFile; fileRef = 00F343C52BF673E30068CC48 /* disconnected.svg */; };
 		41076D351FF3EA1900A16B13 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41076D341FF3EA1900A16B13 /* App.swift */; };
 		41076D391FF3EA1900A16B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41076D381FF3EA1900A16B13 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -22,12 +19,9 @@
 /* Begin PBXFileReference section */
 		000046442BF619EA00229202 /* Authorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
 		000046452BF619EA00229202 /* SSID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSID.swift; sourceTree = "<group>"; };
-		000046462BF619EB00229202 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		000046472BF619EB00229202 /* Visibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visibility.swift; sourceTree = "<group>"; };
 		0025E3E22BF60F88005AEF82 /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
 		00E3959D2BF59A7B006D74EB /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
-		00F343C42BF673E30068CC48 /* connected.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = connected.svg; sourceTree = "<group>"; };
-		00F343C52BF673E30068CC48 /* disconnected.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = disconnected.svg; sourceTree = "<group>"; };
 		41076D311FF3EA1900A16B13 /* Wifilicious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wifilicious.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41076D341FF3EA1900A16B13 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		41076D381FF3EA1900A16B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,11 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				000046442BF619EA00229202 /* Authorization.swift */,
-				000046462BF619EB00229202 /* Menu.swift */,
 				000046452BF619EA00229202 /* SSID.swift */,
 				000046472BF619EB00229202 /* Visibility.swift */,
-				00F343C42BF673E30068CC48 /* connected.svg */,
-				00F343C52BF673E30068CC48 /* disconnected.svg */,
 				0025E3E22BF60F88005AEF82 /* Prompt.swift */,
 				41076D341FF3EA1900A16B13 /* App.swift */,
 				41076D381FF3EA1900A16B13 /* Assets.xcassets */,
@@ -146,8 +137,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				41076D391FF3EA1900A16B13 /* Assets.xcassets in Resources */,
-				00F343C72BF673E30068CC48 /* disconnected.svg in Resources */,
-				00F343C62BF673E30068CC48 /* connected.svg in Resources */,
 				00E3959E2BF59A7B006D74EB /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,7 +153,6 @@
 				000046482BF619EB00229202 /* Authorization.swift in Sources */,
 				41076D351FF3EA1900A16B13 /* App.swift in Sources */,
 				0025E3E32BF60F88005AEF82 /* Prompt.swift in Sources */,
-				0000464A2BF619EB00229202 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
