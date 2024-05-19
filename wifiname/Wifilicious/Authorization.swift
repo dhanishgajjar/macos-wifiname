@@ -17,6 +17,7 @@ extension AppDelegate: CLLocationManagerDelegate {
             case .authorizedWhenInUse, .authorizedAlways:
                 listenForSsidChanges()
                 updateStatusBar()
+                constructMenu()
             case .denied, .restricted:
                 prompt.toEnableLocationServices()
             case .notDetermined:

@@ -31,10 +31,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     let prompt = Prompt()
     
-    let forDeniedRestricted = "To continue, please enable Location Services on your device. You can do this by going to your privacy settings. Without Location Services, we can't access the SSID (Wi-Fi network name) information we need to provide you with the best experience. It's a requirement from Apple, not us"
-    
-    let forUndetermined = "To use Wifilicious, please enable Location Services. This is necessary for the app to function. Go to your settings and allow location access to get started."
-    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         locationManager.delegate = self
         AppDelegate.instance = self

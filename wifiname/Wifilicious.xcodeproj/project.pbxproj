@@ -10,6 +10,7 @@
 		000046482BF619EB00229202 /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000046442BF619EA00229202 /* Authorization.swift */; };
 		000046492BF619EB00229202 /* SSID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000046452BF619EA00229202 /* SSID.swift */; };
 		0000464B2BF619EB00229202 /* Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000046472BF619EB00229202 /* Visibility.swift */; };
+		0000F6432BFA3D4D00CB23DB /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000F6422BFA3D4D00CB23DB /* Menu.swift */; };
 		0025E3E32BF60F88005AEF82 /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025E3E22BF60F88005AEF82 /* Prompt.swift */; };
 		00E3959E2BF59A7B006D74EB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 00E3959D2BF59A7B006D74EB /* Credits.rtf */; };
 		41076D351FF3EA1900A16B13 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41076D341FF3EA1900A16B13 /* App.swift */; };
@@ -20,6 +21,7 @@
 		000046442BF619EA00229202 /* Authorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
 		000046452BF619EA00229202 /* SSID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSID.swift; sourceTree = "<group>"; };
 		000046472BF619EB00229202 /* Visibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visibility.swift; sourceTree = "<group>"; };
+		0000F6422BFA3D4D00CB23DB /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		0025E3E22BF60F88005AEF82 /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
 		00E3959D2BF59A7B006D74EB /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		41076D311FF3EA1900A16B13 /* Wifilicious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wifilicious.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +68,7 @@
 				41076D381FF3EA1900A16B13 /* Assets.xcassets */,
 				41076D3D1FF3EA1900A16B13 /* Info.plist */,
 				00E3959D2BF59A7B006D74EB /* Credits.rtf */,
+				0000F6422BFA3D4D00CB23DB /* Menu.swift */,
 			);
 			path = Wifilicious;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0000F6432BFA3D4D00CB23DB /* Menu.swift in Sources */,
 				000046492BF619EB00229202 /* SSID.swift in Sources */,
 				0000464B2BF619EB00229202 /* Visibility.swift in Sources */,
 				000046482BF619EB00229202 /* Authorization.swift in Sources */,
